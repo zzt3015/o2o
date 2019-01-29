@@ -45,7 +45,7 @@ public class HttpServletRequestUtil {
 			if (result != null) {
 				result = result.trim();
 			}
-			if ("".equals(result)){
+			if ("".equals(result))
 				result = null;
 			return result;
 		} catch (Exception e) {
